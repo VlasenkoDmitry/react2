@@ -1,0 +1,55 @@
+.table-block p {
+    text-align: left;
+  }
+  
+  .table-block table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  .table-block {
+    background-color: #ffffff;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+  }
+  
+  .table-block table tr th {
+    text-align: left;
+    text-transform: capitalize;
+    opacity: 0.2;
+    font-family: sans-serif;
+  }
+  
+  .table-block table tr td {
+    text-align: left;
+    font-family: sans-serif;
+  }
+  
+  .table-block th,
+  .table-block td {
+    word-wrap: break-word;
+  }
+  
+  .table-block .statusButton {
+    display: inline-block;	
+      box-sizing: border-box;
+      padding: 0 20px;
+      margin: 0 15px 15px 0;
+      outline: none;
+      border: none;  
+      border-radius: 4px;
+      height: 32px;
+      line-height: 32px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #fff;
+      background-color: #3775dd;
+      box-shadow: 0 2px #21487f;
+      cursor: pointer;
+      user-select: none;
+      appearance: none;
+      touch-action: manipulation;  
+      vertical-align: top;
+  }

@@ -1,0 +1,56 @@
+.custom-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .custom-menu a {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: #9197b3;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding-left: 10px;
+  }
+  
+  .custom-menu svg {
+    fill: cornflowerblue;
+  }
+  
+  .custom-menu a:hover svg {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .custom-menu li {
+    color: #000;
+  }
+  
+  .custom-menu a:hover {
+    background-color: #6189d7;
+  }
+  
+  .custom-menu a:hover li {
+    color: #ffffff;
+  }
+  
+  .custom-menu a img {
+    object-fit: contain;
+  }
+  
+  @media (max-width: 1079px) {
+    .custom-menu {
+      flex-direction: row;
+    }
+  }
+  
+  @media (max-width: 577px) {
+    .custom-menu {
+      flex-direction: column;
+    }
+  }
+  
