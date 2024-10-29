@@ -38,10 +38,6 @@ function App() {
 
 
 
-function identity<Type>(arg: Type): Type {
-  return arg;
-}
-
 async function getDataFromServer<Type>(arg:string) : Promise<Type[]> {
   const responce = await fetch(
     "https://jsonplaceholder.typicode.com/users"

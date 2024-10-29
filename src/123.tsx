@@ -9,7 +9,7 @@ interface APITodoInterface {
 
 export const MyComponent = () => {
   const [count, setCount] = useState(0);
-  const [toDos, setToDos] = useState(APITodoInterface[]);
+  const [toDos, setToDos] = useState<APITodoInterface[]>([]);
 
   const onHanler = () => {
     setCount((a) => a + 1);
