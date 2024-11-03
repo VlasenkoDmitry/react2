@@ -41,6 +41,10 @@
   .custom-menu a img {
     object-fit: contain;
   }
+
+  custom-menu .active {
+    font-style: italic
+  }
   
   @media (max-width: 1079px) {
     .custom-menu {

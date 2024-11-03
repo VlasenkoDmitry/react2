@@ -3,9 +3,7 @@ import { MenuPointInterface } from "./Interfaces/MenuInterface";
 export const menuData: MenuPointInterface[] = [
   {
     item: "Dashboard",
-    getIcon: function () {
-      return (
-        <svg
+    icon: <svg
           xmlns="http://www.w3.org/2000/svg"
           width="46"
           height="46"
@@ -17,14 +15,10 @@ export const menuData: MenuPointInterface[] = [
             stroke-width="1.5"
           />
         </svg>
-      );
-    },
   },
   {
     item: "Posts",
-    getIcon: function () {
-      return (
-        <svg
+    icon: <svg
           xmlns="http://www.w3.org/2000/svg"
           width="46"
           height="46"
@@ -49,14 +43,10 @@ export const menuData: MenuPointInterface[] = [
             stroke-linecap="round"
           />
         </svg>
-      );
-    },
   },
   {
     item: "Users",
-    getIcon: function () {
-      return (
-        <svg
+    icon: <svg
           xmlns="http://www.w3.org/2000/svg"
           width="46"
           height="46"
@@ -92,7 +82,5 @@ export const menuData: MenuPointInterface[] = [
             stroke-linecap="round"
           />
         </svg>
-      );
-    },
   },
 ];
